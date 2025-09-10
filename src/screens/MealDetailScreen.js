@@ -2,7 +2,7 @@ import React, { useEffect, useState, useMemo } from 'react';
 import { ScrollView, View, Text, Image, ActivityIndicator, StyleSheet, TouchableOpacity } from 'react-native';
 import { fetchMealById } from '../services/api';
 import { colors } from '../styles/theme';
-import { Ionicons } from '@expo/vector-icons';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { useFavorites } from '../store/favorites';
 
 function buildIngredientsList(meal) {

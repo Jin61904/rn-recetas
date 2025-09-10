@@ -3,11 +3,10 @@
 App de recetas en React Native (Expo) usando TheMealDB.
 
 ## Funcionalidades
-- Tabs: **Inicio**, **Buscar**, **Favoritos**.
+- Tabs: **Inicio**, **Favoritos**.
 - **Categorías** con imagen (API).
 - **Listado** de recetas por categoría.
 - **Detalle** de receta (ingredientes e instrucciones).
-- **Búsqueda** por nombre.
 - **Favoritos** persistentes con AsyncStorage (extra).
 
 ## Tecnologías
@@ -18,7 +17,6 @@ App de recetas en React Native (Expo) usando TheMealDB.
 
 ## API
 - TheMealDB: https://www.themealdb.com/api.php
-
 ## Instalación
 ```bash
 npm install
