@@ -20,10 +20,3 @@ export async function fetchMealById(id) {
   const data = await res.json();
   return (data.meals && data.meals[0]) || null;
 }
-
-export async function searchMealsByName(query) {
-  const res = await fetch(`${BASE_URL}/search.php?s=${encodeURIComponent(query)}`);
-  if (!res.ok) throw new Error('Error en búsqueda');
-  const data = await res.json();
-  return data.meals || [];
-}

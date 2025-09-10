@@ -14,7 +14,6 @@ export default function BottomTabs() {
         tabBarIcon: ({ focused, size }) => {
           let name = 'home';
           if (route.name === 'Inicio') name = focused ? 'home' : 'home-outline';
-          if (route.name === 'Buscar') name = focused ? 'search' : 'search-outline';
           if (route.name === 'Favoritos') name = focused ? 'heart' : 'heart-outline';
           return <Ionicons name={name} size={size} />;
         },
